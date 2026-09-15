@@ -1,4 +1,4 @@
-name: Deploy sales portfolio
+name: Deploy marketing portfolio
 
 on:
   push:

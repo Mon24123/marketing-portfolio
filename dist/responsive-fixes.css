@@ -15,8 +15,10 @@
   .outcomes dd { margin-top: 4px; }
 }
 
-/* Sales evidence and quieter first viewport */
+/* Evidence cards and quieter first viewport */
 nav { gap: 24px; }
+.hero-copy, .hero-proof { min-width: 0; }
+.hero-proof { width: 100%; overflow: hidden; }
 :root { --section: 92px; }
 .hero { min-height: 540px; gap: 56px; padding-block: 56px; }
 .hero h1 { max-width: 620px; font-size: clamp(34px, 3.8vw, 48px); line-height: 1.24; letter-spacing: -.035em; }
